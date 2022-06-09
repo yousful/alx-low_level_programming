@@ -1,13 +1,21 @@
-#include<stdio.h>
-#include<conio.h>
-void main() {
-   FILE *f;
-   char s;
-   clrscr();
-   f=fopen("0-putchar.c","r");
-   while((s=fgetc(f))!=EOF) {
-      printf("%c",s);
-   }
-   fclose(f);
-   getch();
+#include <main.h>
+
+/**
+ *main - print with putchar
+ *Return: 0
+ */
+
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
